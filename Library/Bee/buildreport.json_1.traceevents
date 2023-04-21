@@ -1,0 +1,536 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682038225266972, "dur": 1931493, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038225267226, "dur": 5246, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038225272474, "dur": 32537, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038225305013, "dur": 666193, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038225971208, "dur": 1212683, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038227183892, "dur": 14571, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038227199194, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682038225810081, "dur": 140646, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225811248, "dur": 40917, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225934766, "dur": 4945, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225939714, "dur": 11006, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225940453, "dur": 9525, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225955910, "dur": 1253, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682038225955128, "dur": 2056, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038227199320, "dur": 162, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682038226009132, "dur":1258, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038226010395, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682038226010463, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682038226010478, "dur":624, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682038226011127, "dur":479, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038226011606, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158266, "dur":305, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158571, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158618, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158622, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158656, "dur":98, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158754, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158783, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158787, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158811, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158812, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158822, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158824, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158830, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158832, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158838, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158839, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158845, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158847, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158852, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158854, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158860, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158862, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158868, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158870, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158876, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158888, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227158905, "dur":1775, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682038226011202, "dur":530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226011732, "dur":4437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226016170, "dur":13373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682038226029547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226029571, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682038226031101, "dur":116350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682038226147455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226147464, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682038226153786, "dur":50605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226204398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226204409, "dur":4349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226208798, "dur":69483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226278285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226278295, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226280999, "dur":42762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226323767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226323780, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226325860, "dur":22984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226348848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226348931, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226351292, "dur":21610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226372908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226372919, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226374413, "dur":41099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226415518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226415544, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226416767, "dur":139555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226556351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226556364, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226558808, "dur":277294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226836108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038226836150, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038226837735, "dur":298213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038227135951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682038227135959, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682038227136910, "dur":21335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226011539, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226011838, "dur":4388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226016227, "dur":13346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682038226029577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226029598, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682038226033195, "dur":159945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226193146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226193157, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226195063, "dur":20707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226215777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226215788, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226217070, "dur":38884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226255959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226255968, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226257649, "dur":20194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226277848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226277858, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226279308, "dur":68175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226347503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226347513, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226348643, "dur":207614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226556262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226556274, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226558817, "dur":310028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226868850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226868862, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682038226870643, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226870817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226871440, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226872494, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682038226872532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226872612, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682038226873778, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682038226873815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226873822, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682038226874757, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682038226874799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226874806, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682038226875972, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226876098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226876106, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226877048, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226878106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226878117, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1682038226879193, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682038226879230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226879237, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682038226880391, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1682038226880473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226880482, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1682038226882247, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682038226882291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226882300, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682038226883530, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682038226883586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226883596, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682038226884889, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1682038226885029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682038226885038, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1682038226886185, "dur":272026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226011375, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226011807, "dur":4361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226016170, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1682038226016374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226024097, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1682038226025471, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682038226025589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226025599, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682038226027281, "dur":55177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226082464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226082832, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226084272, "dur":25808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226110086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226110098, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226111413, "dur":95789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226207207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226207218, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226208487, "dur":90032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226298525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226298537, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226300509, "dur":28919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226329516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226329529, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226334641, "dur":32384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226367031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226367044, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226368690, "dur":67361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226436056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226436067, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226438875, "dur":87527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226526408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226526421, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226527674, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226528543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226528647, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226529725, "dur":46469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226576200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226576211, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226577439, "dur":142238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226719683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226719695, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226721101, "dur":186499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226907606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682038226907619, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682038226909312, "dur":248923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226011912, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226011913, "dur":4309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226016222, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682038226016642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226018263, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682038226021313, "dur":10922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1682038226032242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226032256, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1682038226034939, "dur":78974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226113917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226113926, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226115627, "dur":21014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226136647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226136673, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226137819, "dur":197596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226335421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226335442, "dur":4714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226340201, "dur":31482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226371690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226371702, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226373022, "dur":51983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226425010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226425021, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226426368, "dur":114779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226541153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226541166, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226543037, "dur":362307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226905350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682038226905363, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682038226908124, "dur":250113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226011695, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226011695, "dur":4463, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226016170, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1682038226016176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226017486, "dur":403, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1682038226017893, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1682038226017931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226018078, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1682038226021074, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682038226021263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226021875, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682038226023267, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682038226023410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226023470, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682038226025061, "dur":13635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682038226038702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226038715, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682038226040088, "dur":63072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226103165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226103176, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226106423, "dur":44481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226150910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226150924, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226152058, "dur":22464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226174526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226174536, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226175459, "dur":148924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226324388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226324398, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226327058, "dur":27755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226354819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226354831, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226355973, "dur":38060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226394038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226394050, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226395145, "dur":65660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226460811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226460823, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226461960, "dur":70390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226532357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226532370, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226533631, "dur":957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226534593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226534605, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226536199, "dur":162120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226698351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038226698362, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038226699785, "dur":306718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038227006510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682038227006521, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682038227007951, "dur":150313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226012061, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226012061, "dur":4151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226016212, "dur":13537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682038226029752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226029771, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682038226031860, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682038226031985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226032726, "dur":11096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682038226043874, "dur":52545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226096425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226096436, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226097691, "dur":19253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226116950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226116962, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226118161, "dur":56146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226174312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226174325, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226176696, "dur":55146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226231848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226231861, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226233337, "dur":26905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226260246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226260256, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226261408, "dur":66573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226327985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226327995, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226331649, "dur":90892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226422563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226422575, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226423933, "dur":126198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226550138, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226550154, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226552615, "dur":160308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226712928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226712939, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226714451, "dur":268824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226983282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682038226983296, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682038226985477, "dur":172771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226012201, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226012201, "dur":4026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226016228, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682038226016364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226031516, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682038226034010, "dur":20810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226054826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226055266, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226056312, "dur":22412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226078730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226078742, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226080285, "dur":174837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226255126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226255135, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226256484, "dur":31521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226288013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226288025, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226289780, "dur":25103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226314888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226314901, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226316467, "dur":20793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226337266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226337278, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226339968, "dur":33371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226373344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226373352, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226375166, "dur":57472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226432656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226432667, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226433782, "dur":347768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226781557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226781568, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226783852, "dur":170518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226954376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682038226954388, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682038226956214, "dur":202030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226012310, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226012310, "dur":4020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226016331, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682038226016480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226024775, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682038226026177, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1682038226026300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226026308, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1682038226028207, "dur":627655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226655867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226655877, "dur":15594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226671517, "dur":90113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226761639, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226761653, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226762904, "dur":176849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226939759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682038226939802, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682038226941372, "dur":216837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226012398, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226012398, "dur":3763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226016170, "dur":48801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1682038226064976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226067079, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1682038226068513, "dur":24519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226093038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226093049, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226094203, "dur":18989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226113231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226113244, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226114517, "dur":28532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226143084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226143099, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226144928, "dur":236655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226381589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226381600, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226382967, "dur":51830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226434802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226434813, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226438284, "dur":3342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226441631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226441642, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226442746, "dur":46320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226489082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226489092, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226490210, "dur":89859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226580076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226580088, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226581308, "dur":129551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226710865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226710878, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226712092, "dur":264318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226976420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682038226976431, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682038226978802, "dur":179469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226012557, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226012558, "dur":3664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226016223, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1682038226016454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226024831, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1682038226026140, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1682038226026260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226026268, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1682038226027874, "dur":201240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226229119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226229203, "dur":5791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226235055, "dur":20054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226255116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226255126, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226257280, "dur":19545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226276907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226276921, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226278112, "dur":25213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226303329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226303407, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226304740, "dur":43784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226348530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226348540, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226349991, "dur":28549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226378546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226378558, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226379884, "dur":51229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226431119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226431131, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226432509, "dur":178005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226610520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226610530, "dur":7663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226618229, "dur":93615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226711849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226711859, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226712974, "dur":77036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226790016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038226790029, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038226791340, "dur":364399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038227155757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682038227155765, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682038227158174, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1682038227158176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226012715, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226012715, "dur":3513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226016228, "dur":13026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1682038226029260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226029286, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1682038226031505, "dur":53452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682038226084961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226084970, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682038226086709, "dur":27512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226114235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226114243, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226115763, "dur":54416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226170185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226170197, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226174283, "dur":61004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226235360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226235371, "dur":6063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226241475, "dur":54187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226295669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226295684, "dur":7316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226303044, "dur":22513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226325562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226325588, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226327390, "dur":18647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226346042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226346053, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226347367, "dur":25950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226373321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226373331, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226375227, "dur":244367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226619598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226619625, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226621017, "dur":161457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226782479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226782491, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226784220, "dur":59693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226843931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226843945, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226845175, "dur":54126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226899307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682038226899320, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682038226900642, "dur":257568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226012890, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226012890, "dur":3321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226016212, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682038226016588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226030779, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682038226034150, "dur":29591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226063748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226065293, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226066557, "dur":46681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226113242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226113252, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226114549, "dur":111615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226226171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226226183, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226227443, "dur":29329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226256776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226256784, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226259963, "dur":45763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226305731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226305743, "dur":9037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226314827, "dur":173541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226488458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226488472, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226489941, "dur":5597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226495545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226495557, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226497258, "dur":9504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226506769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226506782, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226508037, "dur":6402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226514445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226514456, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226516029, "dur":38682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226554716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226554730, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226555991, "dur":150344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226706341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038226706352, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038226707887, "dur":312794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038227020687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682038227020698, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/safav/Desktop/snek/snek Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682038227023207, "dur":135042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682038227162593, "dur":1676, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682038227199521, "dur": 565, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682038227199184, "dur": 917, "ph": "X", "name": "Write chrome-trace events", "args": {} },

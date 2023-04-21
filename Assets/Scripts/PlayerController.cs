@@ -2,13 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 10;
     private Vector3 moveDir;
+    public int playerScore;
+    public bool playerIsAlive = true;
 
     private PlayerTail playerTail;
+    public Text scoreText;
 
     // Reference the FoodSpawner script
     private FoodSpawner foodSpawner;
@@ -33,7 +37,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+            moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+            
     }
 
     void FixedUpdate()
@@ -57,6 +62,10 @@ public class PlayerController : MonoBehaviour
             {
                 foodSpawner.SpawnFood();
             }
+
+            //Increase the score
+            //Hardcoded to one at the moment but can be changed later if we have multiple types of food
+            addScore(1);
         }
         else if (other.CompareTag("Tail"))
         {
@@ -66,8 +75,20 @@ public class PlayerController : MonoBehaviour
                 if (OnGameOver != null)
                 {
                     OnGameOver();
+
+                    // Snek can no longer move
+                    // playerIsAlive is not doing anything right now
+                    // maybe there is better way to of  stopping the game instead of setting player moveSpeed to 0
+                    playerIsAlive = false;
+                    moveSpeed = 0;
                 }
             }
         }
+    }
+
+    public void addScore(int score)
+    {
+        playerScore += score;
+        scoreText.text = playerScore.ToString();
     }
 }
