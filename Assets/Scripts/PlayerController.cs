@@ -23,6 +23,13 @@ public class PlayerController : MonoBehaviour
     // Add a minimum distance for tail collision
     public float minTailCollisionDistance = 0.8f;
 
+
+    // Create a publisher
+    Publisher publisher = new Publisher();
+
+    // Create subscribers
+    Subscriber subscriber1 = new Subscriber("Subscriber 1");
+
     void Start()
     {
         playerTail = GetComponent<PlayerTail>();
@@ -33,6 +40,10 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogError("FoodSpawner not found in the scene.");
         }
+
+
+        // Subscribe to the publisher
+        publisher.Subscribe(subscriber1);
     }
 
     void Update()
@@ -76,9 +87,15 @@ public class PlayerController : MonoBehaviour
                 {
                     OnGameOver();
 
+
+
                     // Snek can no longer move
                     // playerIsAlive is not doing anything right now
                     // maybe there is better way to of  stopping the game instead of setting player moveSpeed to 0
+
+                    // Notify the sub
+                    publisher.Notify(playerScore.ToString());
+
                     playerIsAlive = false;
                     moveSpeed = 0;
                 }
