@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 10;
     private Vector3 moveDir;
+    private Vector3 lastMoveDir;
     public int playerScore;
     public bool playerIsAlive = true;
 
@@ -48,8 +49,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-            moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-            
+        Vector3 inputMoveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+        if(inputMoveDir != Vector3.zero){
+            moveDir = inputMoveDir;
+            lastMoveDir = moveDir;
+        }else{
+            moveDir = lastMoveDir;
+        }
     }
 
     void FixedUpdate()
