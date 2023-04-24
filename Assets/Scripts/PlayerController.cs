@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Food"))
         {
             Destroy(other.gameObject);
-            //Add 25 tail prefabs since the world is pretty big
+            //Add 25 tail prefabs for a normal food
             for(int i = 0; i < 25; i++){
                 playerTail.GrowTail();
             }
