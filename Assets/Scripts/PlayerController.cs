@@ -66,23 +66,29 @@ public class PlayerController : MonoBehaviour
     // Detect collisions with food objects and tail
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Food"))
-        {
-            Destroy(other.gameObject);
-            //Add 25 tail prefabs for a normal food
-            for(int i = 0; i < 25; i++){
-                playerTail.GrowTail();
-            }
+        IFoodEffect foodEffect = null;
+        
+        if (other.CompareTag("RegularFood")){
+            foodEffect = new RegularFoodEffect();
+        }
+        else if (other.CompareTag("SpeedFood")){
+            foodEffect = new SpeedFoodEffect();
+        }
+        else if (other.CompareTag("SuperFood")){
+            foodEffect = new SuperFoodEffect();
+        }
 
+        if (foodEffect != null){
+
+            int score = foodEffect.ApplyEffect(this, playerTail);
+            addScore(score);
             //Replace the food
             if (foodSpawner != null)
             {
                 foodSpawner.SpawnFood();
             }
 
-            //Increase the score
-            //Hardcoded to one at the moment but can be changed later if we have multiple types of food
-            addScore(1);
+            Destroy(other.gameObject);
         }
         else if (other.CompareTag("Tail"))
         {
@@ -92,8 +98,6 @@ public class PlayerController : MonoBehaviour
                 if (OnGameOver != null)
                 {
                     OnGameOver();
-
-
 
                     // Snek can no longer move
                     // playerIsAlive is not doing anything right now
@@ -114,4 +118,9 @@ public class PlayerController : MonoBehaviour
         playerScore += score;
         scoreText.text = playerScore.ToString();
     }
+
+    public void ResetSpeed(){
+        moveSpeed /= 2;
+    }      
+
 }
