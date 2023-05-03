@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tail
   - Food
+  - SpeedFood
+  - SuperFood
+  - RegularFood
   layers:
   - Default
   - TransparentFX

@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 546313012}
   m_Layer: 0
   m_Name: Food
-  m_TagString: Food
+  m_TagString: RegularFood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1289,7 +1289,7 @@ GameObject:
   - component: {fileID: 1138359894}
   m_Layer: 0
   m_Name: SuperFood
-  m_TagString: Food
+  m_TagString: SuperFood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1616,7 +1616,7 @@ GameObject:
   - component: {fileID: 2060848937}
   m_Layer: 0
   m_Name: SpeedFood
-  m_TagString: Food
+  m_TagString: SpeedFood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
