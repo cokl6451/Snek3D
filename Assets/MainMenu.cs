@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Command pattern: MainMenu object assembles a request either for the next scene in the build list or the application object's own quit function
+
 public class MainMenu : MonoBehaviour
 {
     public void Play(){
